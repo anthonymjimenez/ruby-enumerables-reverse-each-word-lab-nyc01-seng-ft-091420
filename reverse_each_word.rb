@@ -1,4 +1,4 @@
-def reverse_each_word(str) 
+def reverse_each_word(str)
   wordArray = str.split(" ")
   tempArray = []
   finalArray = []
