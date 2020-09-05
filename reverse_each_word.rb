@@ -2,7 +2,7 @@ def reverse_each_word(str)
   wordArray = str.split(" ")
   tempArray = []
   finalArray = []
-  wordArray.collect_with_index do |elm, index|
+  wordArray.map_with_index do |elm, index|
     word = elm.split('')
     word.each_with_index do |elm, index|
       tempArray.push(word[word.length - (index + 1)])
