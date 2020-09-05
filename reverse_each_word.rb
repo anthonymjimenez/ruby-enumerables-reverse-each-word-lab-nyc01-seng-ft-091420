@@ -10,7 +10,5 @@ def reverse_each_word(str)
     finalArray.push(tempArray)
     tempArray = []
   end
-  finalArray.join("")
+  finalArray.join(" ")
 end
-
-  
